@@ -20,7 +20,7 @@ no training. Pure NumPy + pywidget, runs entirely in Pyodide.
 import marimo
 
 __generated_with = "0.23.3"
-app = marimo.App(width="wide", auto_download=["html"])
+app = marimo.App(width="medium", auto_download=["html"])
 
 
 @app.cell
