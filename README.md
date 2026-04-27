@@ -2,6 +2,25 @@
 
 > An interactive marimo notebook explaining **why diffusion models don't need their noise-level input** — and where exactly that trick breaks.
 
+<p align="center">
+  <a href="https://github.com/ktaletsk/pywidget">
+    <img src="https://raw.githubusercontent.com/ktaletsk/pywidget/main/favicon.svg" alt="pywidget" height="64"/>
+  </a>
+  <br/>
+  <sub>A <b><a href="https://github.com/ktaletsk/pywidget">pywidget</a></b> showcase — every interactive element is pure Python, running in Pyodide/WASM. No JavaScript, no kernel round-trips.</sub>
+</p>
+
+<samp>
+  <p align="center">
+    <a href="https://marimo.app/?src=https%3A%2F%2Fraw.githubusercontent.com%2Fktaletsk%2Fgeometry-of-noise%2Frefs%2Fheads%2Fmain%2Fmarimo_notebook.py">
+      <img src="https://marimo.io/shield.svg" alt="Open in marimo">
+    </a>
+    <a href="https://molab.marimo.io/github/ktaletsk/geometry-of-noise/blob/main/marimo_notebook.py">
+      <img src="https://marimo.io/molab-shield.svg" alt="Open in molab">
+    </a>
+  </p>
+</samp>
+
 ![CIFAR-10 — blind noise prediction (mush, left) vs. blind velocity prediction (clean, right)](figures/cifar10_comparison.png)
 
 *On real images, the difference between training targets is stark. A "blind" U-Net trained to predict noise (left) collapses to mush. The same architecture trained to predict velocity (right) generates clean samples — without ever being told the noise level. This notebook explains why, analytically, on a toy you can scrub by hand.*
