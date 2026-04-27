@@ -2,20 +2,9 @@
 
 > An interactive marimo notebook explaining **why diffusion models don't need their noise-level input** — and where exactly that trick breaks.
 
-<p align="center">
-  <a href="https://github.com/ktaletsk/pywidget">
-    <img src="https://raw.githubusercontent.com/ktaletsk/pywidget/main/favicon.svg" alt="pywidget" height="64"/>
-  </a>
-  <br/>
-  <sub>A <b><a href="https://github.com/ktaletsk/pywidget">pywidget</a></b> showcase — every interactive element is pure Python, running in Pyodide/WASM. No JavaScript, no kernel round-trips.</sub>
-</p>
-
 <samp>
   <p align="center">
-    <a href="https://marimo.app/?src=https%3A%2F%2Fraw.githubusercontent.com%2Fktaletsk%2Fgeometry-of-noise%2Frefs%2Fheads%2Fmain%2Fmarimo_notebook.py">
-      <img src="https://marimo.io/shield.svg" alt="Open in marimo">
-    </a>
-    <a href="https://molab.marimo.io/github/ktaletsk/geometry-of-noise/blob/main/marimo_notebook.py">
+    <a href="https://molab.marimo.io/notebooks/nb_Vr518UEPDs7Ypj1Cf3aKur">
       <img src="https://marimo.io/molab-shield.svg" alt="Open in molab">
     </a>
   </p>
@@ -83,6 +72,14 @@ It also runs unmodified in [molab](https://molab.marimo.io/) — Pyodide handles
 
 - **[marimo](https://marimo.io)** — reactive Python notebooks where the dataflow graph drives execution. Move the `D` slider and every dependent figure recomputes automatically; nothing is precomputed or stale.
 - **[pywidget](https://github.com/ktaletsk/pywidget)** — pure-Python interactive widgets running in Pyodide/WASM. **Every interactive element here is a pywidget.** No JavaScript bundles, no `_esm` blocks, no kernel round-trips on UI events — the widgets author and update the DOM from Python running in the browser.
+
+<p align="center">
+  <a href="https://github.com/ktaletsk/pywidget">
+    <img src="https://raw.githubusercontent.com/ktaletsk/pywidget/main/favicon.svg" alt="pywidget" height="64"/>
+  </a>
+  <br/>
+  <sub>A <b><a href="https://github.com/ktaletsk/pywidget">pywidget</a></b> showcase — every interactive element is pure Python, running in Pyodide/WASM. No JavaScript, no kernel round-trips.</sub>
+</p>
 
 The pywidget showcase is part of the point: this notebook is a working demonstration that you can build production-quality interactive scientific visualizations entirely in Python and have them run anywhere Pyodide does — including molab, JupyterLite, and any static-hosted page.
 
