@@ -70,18 +70,30 @@ It also runs unmodified in [molab](https://molab.marimo.io/) — Pyodide handles
 
 ## Built with
 
-- **[marimo](https://marimo.io)** — reactive Python notebooks where the dataflow graph drives execution. Move the `D` slider and every dependent figure recomputes automatically; nothing is precomputed or stale.
-- **[pywidget](https://github.com/ktaletsk/pywidget)** — pure-Python interactive widgets running in Pyodide/WASM. **Every interactive element here is a pywidget.** No JavaScript bundles, no `_esm` blocks, no kernel round-trips on UI events — the widgets author and update the DOM from Python running in the browser.
+<table>
+<tr>
+  <td width="50%" align="center">
+    <a href="https://marimo.io">
+      <img src="https://marimo.io/logotype-wide.svg" alt="marimo" height="40"/>
+    </a>
+  </td>
+  <td width="50%" align="center">
+    <a href="https://github.com/ktaletsk/pywidget">
+      <img src="https://raw.githubusercontent.com/ktaletsk/pywidget/main/favicon.svg" alt="pywidget" height="40"/>
+    </a>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <a href="https://marimo.io"><b>marimo</b></a> — reactive Python notebooks where the dataflow graph drives execution. Move the <code>D</code> slider and every dependent figure recomputes; nothing is precomputed or stale.
+  </td>
+  <td width="50%" valign="top">
+    <a href="https://github.com/ktaletsk/pywidget"><b>pywidget</b></a> — pure-Python interactive widgets running in Pyodide/WASM. Every interactive element here is built with it. No JavaScript, no <code>_esm</code> blocks, no kernel round-trips.
+  </td>
+</tr>
+</table>
 
-<p align="center">
-  <a href="https://github.com/ktaletsk/pywidget">
-    <img src="https://raw.githubusercontent.com/ktaletsk/pywidget/main/favicon.svg" alt="pywidget" height="64"/>
-  </a>
-  <br/>
-  <sub>A <b><a href="https://github.com/ktaletsk/pywidget">pywidget</a></b> showcase — every interactive element is pure Python, running in Pyodide/WASM. No JavaScript, no kernel round-trips.</sub>
-</p>
-
-The pywidget showcase is part of the point: this notebook is a working demonstration that you can build production-quality interactive scientific visualizations entirely in Python and have them run anywhere Pyodide does — including molab, JupyterLite, and any static-hosted page.
+This notebook is a working demonstration that you can ship production-quality interactive scientific visualizations entirely in Python — anywhere Pyodide runs, including molab, JupyterLite, and any static-hosted page.
 
 ## Walk-through
 
