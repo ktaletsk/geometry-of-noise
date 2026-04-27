@@ -4,7 +4,7 @@
 
 <samp>
   <p align="center">
-    <a href="https://molab.marimo.io/github/ktaletsk/geometry-of-noise/blob/4e4b7981e1cea89d81266981b60494a5b3525a03/marimo_notebook.py/wasm">
+    <a href="https://molab.marimo.io/github/ktaletsk/geometry-of-noise/blob/main/marimo_notebook.py/wasm">
       <img src="https://marimo.io/molab-shield.svg" alt="Open in molab">
     </a>
   </p>
