@@ -26,21 +26,21 @@ All math is **closed-form analytical**. No neural networks are trained. Every fi
 <table>
 <tr>
   <td width="50%" valign="top">
-    <img src="fig1.png" alt="Apple-peel widget at D = 128"/>
+    <img src="https://github.com/user-attachments/assets/38a67feb-63b4-4b6d-b47c-6d536f0c4914" alt="Apple-peel widget at D = 128"/>
     <p><b>Apple peel.</b> Drag the inner arc to set how thin a "skin" you peel off a <i>D</i>-dimensional ball. At <i>D</i> = 128, peeling just 1 % of the radius removes ~72 % of the volume — most of the ball lives in its outermost shell. This is the geometric foundation everything else builds on.</p>
   </td>
   <td width="50%" valign="top">
-    <img src="fig2.png" alt="Shell histogram at D = 128"/>
+    <img src="https://github.com/user-attachments/assets/9f472309-eaec-4197-9819-b5da9ed80b33" alt="Shell histogram at D = 128"/>
     <p><b>Shell histogram.</b> Gaussian noise vectors at level <i>t</i> concentrate at radius <i>t</i>·√<i>D</i>, and the shells at different <i>t</i> become <i>disjoint</i> as <i>D</i> grows. So the noise level <i>t</i> is encoded in <code>‖u‖</code> alone — that's the statistical fingerprint the U-Net is reading.</p>
   </td>
 </tr>
 <tr>
   <td width="50%" valign="top">
-    <img src="fig3.png" alt="Posterior collapse widget"/>
+    <img src="https://github.com/user-attachments/assets/b9692b9a-f5b4-4958-979a-c05d88a8e72e" alt="Posterior collapse widget"/>
     <p><b>Posterior <code>p(t | u)</code>.</b> Click anywhere on the 2D scatter to place a probe; the right plot shows the posterior over <i>t</i> at that probe. At high <i>D</i>, the wide prior collapses into a narrow delta — the "posterior collapse on <i>t</i>" the paper is named after, made interactive.</p>
   </td>
   <td width="50%" valign="top">
-    <img src="fig4.png" alt="4-panel sampler comparison at D = 128"/>
+    <img src="https://github.com/user-attachments/assets/6ee01295-953c-496e-9d1a-d440efed3599" alt="4-panel sampler comparison at D = 128"/>
     <p><b>4-panel sampler.</b> FM-conditional (sees <i>t</i>, baseline), FM-blind (paper's headline claim), EDM-blind (paper predicts but never tests — our extension), DDPM-blind (paper's stress test). All four use the same closed-form sampler. Drag <i>D</i> to see which parameterization survives where.</p>
   </td>
 </tr>
